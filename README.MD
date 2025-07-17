@@ -5,7 +5,8 @@
 2. Go inside the folder and run below command to install the dependencies
    `npm install`
 3. Create a .env file in the main directory
-    Set MONGO_URI = <your_url_for_mongoDb>/policyDB
+    Set the URL for MONGODB
+    `MONGO_URI = <your_url_for_mongoDb>/policyDB`
 4. Now start the project using:
   node app.js
 5. TASK- 1
