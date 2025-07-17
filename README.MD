@@ -7,6 +7,7 @@
 3. Create a .env file in the main directory
     Set the URL for MONGODB
     `MONGO_URI = <your_url_for_mongoDb>/policyDB`
+    `Example - mongodb+srv://anubhavm000:<your-password>@cluster-test.h7rwwx1.mongodb.net/<dbName>?retryWrites=true&w=majority&appName=Cluster-Test`
 4. Now start the project using:
   node app.js
 5. TASK- 1
