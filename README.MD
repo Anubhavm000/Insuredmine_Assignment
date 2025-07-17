@@ -23,6 +23,7 @@
       For restarting the server when usage is greate than 70%
       Stop the server and run command 
       pm2 app.js
+
     2. Create a post-service that takes the message, day, and time in body parameters and it inserts that message into DB at that particular day and time.
         POST API for scheduling message - "http://localhost:3000/api/messages/schedule"
         In Postman, go to Body and select "raw" and choose JSON in the last dropdown.
