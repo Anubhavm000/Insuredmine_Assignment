@@ -1,0 +1,25 @@
+{
+  "name": "insuredmine_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
+    "mongoose": "^8.16.3",
+    "node-cron": "^4.2.1",
+    "os-utils": "^0.0.14"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
