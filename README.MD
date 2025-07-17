@@ -4,9 +4,11 @@
   `git clone https://github.com/Anubhavm000/Insuredmine_Assignment.git`
 2. Go inside the folder and run below command to install the dependencies
    `npm install`
-3. Now start the project using:
+3. Create a .env file in the main directory
+    Set MONGO_URI = <your_url_for_mongoDb>/policyDB
+4. Now start the project using:
   node app.js
-4. TASK- 1
+5. TASK- 1
     1. Upload CSV file API
         POST API for Uploading csv - "http://localhost:3000/api/upload"
         Go to the "Body" and select "form-data" and inside it add the "key" with name file and select file instead of text in "key" and in the "value" column upload the stored in the                "uploads" folder in the project directory.  
